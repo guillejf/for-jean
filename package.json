@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "start": "node ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "mongoose": "^7.2.1",
+    "mongoose-paginate-v2": "^1.7.1",
+    "socket.io": "^4.6.1",
+    "sweetalert": "^2.1.2",
+    "uuid": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanPierreCarrey/entrega-JEAN-PIERRE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JeanPierreCarrey/entrega-JEAN-PIERRE/issues"
+  },
+  "homepage": "https://github.com/JeanPierreCarrey/entrega-JEAN-PIERRE#readme",
+  "description": ""
+}
